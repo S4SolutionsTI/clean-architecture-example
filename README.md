@@ -16,7 +16,7 @@ You should be able to make requests at `localhost:4567`
 ❯ http POST http://localhost:4567/transfer from_account_id=1 to_account_id=2 total_in_cents=200
 
 HTTP/1.1 201 Created
-Content-Type: text/html;charset=utf-8
+Content-Type: application/json;charset=utf-8
 Date: Thu, 25 Oct 2018 22:25:53 GMT
 Server: Jetty(9.4.z-SNAPSHOT)
 Transfer-Encoding: chunked
